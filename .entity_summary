@@ -1,0 +1,12 @@
+- Schnelleinladung (schnelleinladung): schnell_event[applookup/select], schnell_gaeste[multipleapplookup/select], schnell_einladungsdatum[date/date], schnell_notizen[string/textarea]
+  → schnell_event links to app_id 69c184f5bfd71417289848b6
+  → schnell_gaeste links to app_id 69c184ea0b376d3c797865b1
+- Dienstleisterbuchung (dienstleisterbuchung): buchung_event[applookup/select], buchung_dienstleister[applookup/select], gebuchte_leistung[string/textarea], vereinbarter_preis[number], buchungsstatus[lookup/select], buchung_notizen[string/textarea]
+  → buchung_event links to app_id 69c184f5bfd71417289848b6
+  → buchung_dienstleister links to app_id 69c184f5969c07591f98b0b7
+- Einladungsmanagement (einladungsmanagement): einladung_event[applookup/select], einladung_gast[applookup/select], einladungsdatum[date/date], einladungsstatus[lookup/select], einladung_notizen[string/textarea]
+  → einladung_event links to app_id 69c184f5bfd71417289848b6
+  → einladung_gast links to app_id 69c184ea0b376d3c797865b1
+- Eventverwaltung (eventverwaltung): event_name[string/text], event_datum[date/datetimeminute], event_strasse[string/text], event_hausnummer[string/text], event_plz[string/text], event_ort[string/text], event_beschreibung[string/textarea], geplantes_budget[number], event_status[lookup/select], event_notizen[string/textarea]
+- Dienstleisterverwaltung (dienstleisterverwaltung): firmenname[string/text], ansprechpartner_vorname[string/text], ansprechpartner_nachname[string/text], dl_email[string/email], dl_telefon[string/tel], kategorie[lookup/select], dl_notizen[string/textarea]
+- Gästeverwaltung (gaesteverwaltung): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], unternehmen[string/text], position[string/text], notizen[string/textarea]
